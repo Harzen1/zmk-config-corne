@@ -1,0 +1,6 @@
+/ {
+    /* Completely disable the onboard status LED */
+    &blue_led {
+        status = "disabled";
+    };
+};
